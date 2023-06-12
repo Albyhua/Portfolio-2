@@ -2,79 +2,79 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  
-  }
-  
-  header {
+
+}
+
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 2%;
     color: #ffffff;
     flex-direction: column;
-  }
-  
-  
-  a {
+}
+
+
+a {
     color: white;
-  }
-  
-  p {
+}
+
+p {
     color: white;
-  }
-  
-  h2 {
+}
+
+h2 {
     color: #fff;
-  }
-  
-  .selfie {
+}
+
+.selfie {
     height: 150px;
     width: 120px;
     display: flex;
-  }
-  
-  aside {
+}
+
+aside {
     float: left;
-  }
-  
-  
-  body {
+}
+
+
+body {
     background: linear-gradient(to bottom, rgb(9, 175, 226), rgb(8, 159, 185));
-  }
-  
-  .navigators {
+}
+
+.navigators {
     flex-direction: row;
     text-decoration: none;
-  }
-  
-  .border {
+}
+
+.border {
     background-color: rgba(247, 96, 70);
     border-radius: 20px;
     padding: 30px;
     margin: 20px;
-  }
-  
-  
-  section {
+}
+
+
+section {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     margin-bottom: 15px;
-  }
-  
-  section>h2 {
+}
+
+section>h2 {
     flex-basis: 23%;
     border-right: 4px solid black;
     justify-content: right;
-  }
-  
-  section>div {
+}
+
+section>div {
     flex-basis: 77%;
     padding-left: 10px;
-  
-  }
-  
-  .projects {
+
+}
+
+.projects {
     background: linear-gradient(to bottom, rgb(9, 175, 226), rgb(8, 159, 185));
     color: white;
     min-width: 20%;
@@ -84,35 +84,34 @@
     flex: 2 1 400px;
     flex-direction: column;
     text-align: center;
-  }
-  
-  #sub-project {
+}
+
+#sub-project {
     transform: scale(0.9);
-  }
-  
-  
-  .projects:hover {
+}
+
+
+.projects:hover {
     transform: scale(1.02);
-  }
-  
-  #sub-project:hover {
+}
+
+#sub-project:hover {
     transform: scale(0.95);
-  }
-  
-  .placeholder {
+}
+
+.placeholder {
     font-size: 130%;
     font-weight: 800;
     background: rgba(247, 96, 70);
     color: #fff;
-  }
-  
-  .border li:hover {
+}
+
+.border li:hover {
     transform: translateX(45px) scale(1.05);
-  }
-  
-  
-  #sample-image {
+}
+
+
+#sample-image {
     width: 60%;
     height: 55%;
-  }
-  
+}
