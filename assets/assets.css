@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2%;
+    color: #ffffff;
+    flex-direction: column;
+  }
+  
+  
+  a {
+    color: white;
+  }
+  
+  p {
+    color: white;
+  }
+  
+  h2 {
+    color: #fff;
+  }
+  
+  .selfie {
+    height: 150px;
+    width: 120px;
+    display: flex;
+  }
+  
+  aside {
+    float: left;
+  }
+  
+  
+  body {
+    background: linear-gradient(to bottom, rgb(9, 175, 226), rgb(8, 159, 185));
+  }
+  
+  .navigators {
+    flex-direction: row;
+    text-decoration: none;
+  }
+  
+  .border {
+    background-color: rgba(247, 96, 70);
+    border-radius: 20px;
+    padding: 30px;
+    margin: 20px;
+  }
+  
+  
+  section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-bottom: 15px;
+  }
+  
+  section>h2 {
+    flex-basis: 23%;
+    border-right: 4px solid black;
+    justify-content: right;
+  }
+  
+  section>div {
+    flex-basis: 77%;
+    padding-left: 10px;
+  
+  }
+  
+  .projects {
+    background: linear-gradient(to bottom, rgb(9, 175, 226), rgb(8, 159, 185));
+    color: white;
+    min-width: 20%;
+    padding: 20px;
+    justify-content: center;
+    border-radius: 10px;
+    flex: 2 1 400px;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  #sub-project {
+    transform: scale(0.9);
+  }
+  
+  
+  .projects:hover {
+    transform: scale(1.02);
+  }
+  
+  #sub-project:hover {
+    transform: scale(0.95);
+  }
+  
+  .placeholder {
+    font-size: 130%;
+    font-weight: 800;
+    background: rgba(247, 96, 70);
+    color: #fff;
+  }
+  
+  .border li:hover {
+    transform: translateX(45px) scale(1.05);
+  }
+  
+  
+  #sample-image {
+    width: 60%;
+    height: 55%;
+  }
+  
