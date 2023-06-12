@@ -5,6 +5,8 @@
 
 }
 
+/* instead of doing a reset css, I set margin and padding to 0 giving that
+  same effect as if I had a reset css */
 header {
     display: flex;
     justify-content: space-between;
@@ -12,19 +14,6 @@ header {
     padding: 2%;
     color: #ffffff;
     flex-direction: column;
-}
-
-
-a {
-    color: white;
-}
-
-p {
-    color: white;
-}
-
-h2 {
-    color: #fff;
 }
 
 .selfie {
@@ -52,6 +41,7 @@ body {
     border-radius: 20px;
     padding: 30px;
     margin: 20px;
+    color: white;
 }
 
 
@@ -90,7 +80,7 @@ section>div {
     transform: scale(0.9);
 }
 
-
+/* gave more life to my webpage by making boxes pop out */
 .projects:hover {
     transform: scale(1.02);
 }
@@ -99,17 +89,9 @@ section>div {
     transform: scale(0.95);
 }
 
-.placeholder {
-    font-size: 130%;
-    font-weight: 800;
-    background: rgba(247, 96, 70);
-    color: #fff;
-}
-
 .border li:hover {
     transform: translateX(45px) scale(1.05);
 }
-
 
 #sample-image {
     width: 60%;
